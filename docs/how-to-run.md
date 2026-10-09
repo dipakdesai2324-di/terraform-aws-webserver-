@@ -65,11 +65,10 @@ The `.terraform.lock.hcl` file records the selected provider versions and checks
 ## 5. Execute the Terraform Project
 Open a terminal in the `terraform-aws-webserver` project directory and run the following commands in order.
 ### Step 1: Check the Installed Tools
-```bash
-terraform -version
-aws --version
-```
+* terraform -version
+* aws --version
 Both commands should display their installed versions.
+
 ### Step 2: Verify AWS Authentication : aws sts get-caller-identity
 Confirm that the AWS account and identity are the ones you intend to use.
 
