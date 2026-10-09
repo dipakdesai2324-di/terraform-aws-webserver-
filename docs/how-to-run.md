@@ -76,10 +76,8 @@ Confirm that the AWS account and identity are the ones you intend to use.
 Terraform downloads the required AWS provider and prepares the working directory.
 
 ### Step 4: Format and Validate the Configuration
-```bash
-terraform fmt
-terraform validate
-```
+* terraform fmt
+* terraform validate
 * terraform fmt formats the Terraform configuration files.
 * terraform validate checks the configuration for syntax and internal consistency errors.
 
