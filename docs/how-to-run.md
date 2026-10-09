@@ -25,16 +25,7 @@ Follow the prompts to configure your AWS access key, secret key, default region,
 
 ## 3. Project File Structure
 The project repository contains the following files:
-```text
-terraform-aws-webserver/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── .gitignore
-├── README.md
-└── docs/
-    └── terraform-aws-setup-and-deployment.md
-```
+ main.tf, variables.tf, outputs.tf, .gitignore, README.md, docs/--> terraform-aws-setup-and-deployment.md
 
 ### What Each File Does
 * **main.tf:** Defines the AWS provider and the infrastructure resources, including the VPC, subnet, Internet Gateway, route table, security group, and EC2 instance.
